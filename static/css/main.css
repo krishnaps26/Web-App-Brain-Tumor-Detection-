@@ -1,0 +1,75 @@
+body{
+    color:white;
+   background-color:black ;
+}
+
+h3{
+    color: white;
+}
+
+div{
+    text-align: center;
+}
+
+a{
+    color: black;
+}
+.img-preview {
+    width: 256px;
+    height: 256px;
+    background-position: ce;
+    position: relative;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+    margin-bottom: 1em;    
+}
+
+.img-preview>div {
+    width: 100%;
+    height: 100%;
+    margin-left: 27rem;
+    margin-bottom: 2rem;
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-label{
+    display: inline-block;
+    padding: 12px 30px;
+    background: #962a82;
+    color: #fff;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+}
+
+.upload-label:hover{
+    background: #601542;
+    color: #ffffff;
+}
+
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 520px;
+    animation: spin 1s linear infinite;
+}
+
+.btn-group {
+    margin-right: 300rem;
+}
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
